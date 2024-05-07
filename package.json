@@ -1,0 +1,29 @@
+{
+  "name": "nodejs_template",
+  "version": "1.0.0",
+  "description": "NodeJS project template",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --env-file=.env.production ./src",
+    "dev": "node --env-file=.env.development --watch ./src",
+    "dev:debug": "node --env-file=.env.development --inspect-brk --watch ./src",
+    "test": "node --test",
+    "test:dev": "node --test --watch",
+    "test:debug": "node --inspect-brk --test --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/userjapa/nodejs_template.git"
+  },
+  "keywords": [
+    "test",
+    "template",
+    "native"
+  ],
+  "author": "userjapa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/userjapa/nodejs_template/issues"
+  },
+  "homepage": "https://github.com/userjapa/nodejs_template#readme"
+}

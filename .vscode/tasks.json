@@ -1,0 +1,24 @@
+// Press CTRL + SHIFT + B to run command npm run test:debug
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "run-project-tests",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+				"-Command",
+        "npm run test:debug;"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
